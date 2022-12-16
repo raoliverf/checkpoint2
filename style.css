@@ -1,0 +1,270 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+
+  .navfix {
+    position: fixed;
+    background-color: #ffffff;
+    width: 100vw;
+    z-index: 2;
+  }
+
+
+
+  .logo1 {
+    position: absolute;
+    width: 167px;
+    height: 80px;
+    margin-left: 61px;
+  }
+
+
+
+  .logo2 {
+    position: absolute;
+    width: 167px;
+    height: 80px;
+    margin-left: 250px;
+  }
+
+
+  div.navegacao {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 1250px;
+    padding-right: 50px;
+  }
+
+
+
+  .navegacao a:hover {
+    text-shadow: rgb(113, 106, 106) 0.1em 0.1em 0.2em;
+    color: black;
+  }
+
+
+
+  .main-container {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+
+  .parallax {
+    display: flex;
+    flex: 1 0 auto;
+    position: relative;
+    z-index: -1;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-1px) scale(2);
+  }
+
+
+  .conteinercontent {
+    position: relative;
+    display: block;
+    background-color: white;
+    z-index: 1;
+  }
+
+
+
+  .contenido {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 75px 0;
+  }
+
+
+  .imagemfundo {
+    position: absolute;
+    background-image: url(/imgs/biblioteca.png);
+    background-attachment: scroll;
+    width: 1600px;
+    left: 0px;
+    top: 80px;
+    opacity: 0.5;
+  }
+
+
+
+  h1#sobrepor1 {
+    position: absolute;
+    left: 500px;
+    top: 910px;
+    font-size: 72px;
+    font-weight: bold;
+    font-family: serif;
+    color: #bf2424;
+  }
+
+
+
+  p.slogan {
+    position: absolute;
+    font-size: 24px;
+    left: 500px;
+    top: 994px;
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+
+
+  .button1 {
+    position: absolute;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 322px;
+    height: 71px;
+    left: 659px;
+    top: 1042px;
+    background: rgba(228, 122, 122, 0.6);
+    border: 1px solid #bf2424;
+    border-radius: 12px;
+    text-shadow: rgb(100, 95, 95) 0.1em 0.1em 0.2em;
+  }
+
+
+  h2#entrada {
+    position: absolute;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 64px;
+    width: 146px;
+    height: 75px;
+    left: 700px;
+    top: 800px;
+  }
+
+a {
+  text-decoration: none;
+  color: #bf2424;
+}
+
+div.container {
+  display: inline-block;
+  flex-wrap: wrap;
+  top: 900px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.card {
+  display: inline-block;
+  width: 407px;
+  height: 511.14px;
+  margin: 80px;
+  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: auto;
+  align-items: center;
+  gap: 30px;
+}
+
+p.titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #000000;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+button.btn a {
+  position: relative;
+  display: inline-block;
+  width: 342px;
+  height: 59.3px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #bf2424;
+  border-radius: 12px;
+  border: 1px solid #000000;
+}
+
+button:hover {
+  transition: all 0.5s;
+}
+
+.cards {
+  width: 407px;
+  border-radius: 12px;
+}
+
+footer {
+  position: absolute;
+  background-color: #bf2424;
+  width: 1520px;
+  height: 364px;
+  left: 0px;
+  top: 4300px;
+}
+
+
+p.by {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 640px;
+  margin-top: 80px;
+}
+
+p.final {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 660px;
+  margin-top: 16px;
+}
+
+a.linkedin {
+  position: absolute;
+  margin-left: 760px;
+  margin-top: 50px;
+}
+
+a.git {
+  position: absolute;
+  margin-left: 790px;
+  margin-top: 50px;
+}
+
+p.check {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: -190px;
+  margin-top: 80px;
+}
